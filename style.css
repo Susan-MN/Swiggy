@@ -1,0 +1,180 @@
+
+body{
+    margin:0px !important;
+    
+}
+
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 55% 45%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    margin: 0px auto;
+    
+   
+}
+.item1{
+    margin: 50px 35px 0px 80px;
+    
+}
+.logo{
+    height: 60px;
+    width: auto;
+}
+.links{
+    float: right;
+    height: 15px;
+    width: 15%;
+    color: black;
+    text-align: center;
+    padding: 13px;
+    text-decoration: none;
+}
+.signup{
+    color: white;
+    background-color: black;
+    margin-left: 16px;
+    margin-right: 16px;
+}
+.login:hover{
+    color: red;
+}
+.banner{
+    height:auto;
+    width: 100%;
+}
+h1{
+    margin-top: 65px;
+}
+h2{
+    color: gray;
+    font-weight: 400;
+}
+.locationinput{
+    height: 40px;
+    width: 70%;
+    color: gray;
+    font-size: 18px;
+    margin: 30px auto auto 0px;
+    padding: 10px;
+}
+.locateMe{
+    border: none;
+    background: transparent;
+    position: absolute;
+    top:315px;
+    left: 440px;
+    padding: 15px;
+}
+button:hover{
+    background-color: lightgray;
+}
+.findfood{
+    text-decoration: none;
+    background-color:  #fc8019;
+    color: white;
+    padding: 23px;
+    margin-left:-4px;
+    cursor: pointer;
+    text-align: center;
+    
+   
+}
+.cities{
+    color: grey;
+    font-weight: 400;
+    font-size: 15px;
+    margin-top: 30px;
+    
+}
+.citylist{
+    
+    margin-top: 10px;
+    width: 600px;
+}
+.list{
+    text-decoration: none;
+    color: #686b78;
+    margin-right: 8px;
+    letter-spacing: -.3px;
+}
+.list:nth-child(even){
+    color: #93959f;
+}
+.info-container{
+    background-color: #2b1e16;
+    margin:-3px;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    font-size: 15px;
+    font-weight: 500;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+    height: 200px;
+}
+.info-head{
+    color: white;
+    text-align: center;
+}
+.info{
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    padding: 20px;
+    font-weight: 400;
+}
+.app-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.mob-img{
+    height: 500px;
+    width:auto;
+}
+.app-item1{
+    margin: 50px 35px 0px 80px;
+    font-size: 16px;
+    color: #282c3f;
+   padding: 20px;
+    
+}
+.app-img{
+    cursor: pointer;
+    height: 54px;
+    display: inline;
+    width: auto;
+}
+
+.text-head{
+    font-size: 40px;
+    padding-right: 10px;
+    font-weight: 400;
+}
+.text-para{
+    font-size: 20px;
+    font-weight: 200;
+    color: gray;
+}
+.footer-container{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    background-color: black;
+    color:  white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 44px;
+    font-weight: 400;
+    
+}
+.footer-container .list {
+    margin-inline: 33px;
+}
+
+
